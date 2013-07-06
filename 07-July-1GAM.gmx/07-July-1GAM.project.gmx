@@ -7,6 +7,8 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Cabin</sprite>
+    <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_Hunter</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_CaveTiles</background>
@@ -17,10 +19,11 @@
     <object>objects\obj_Hunter</object>
     <object>objects\obj_Bear</object>
     <object>objects\obj_Wall</object>
+    <object>objects\obj_Cabin</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_Title</room>
     <room>rooms\rm_Game</room>
+    <room>rooms\rm_Title</room>
     <room>rooms\rm_Credits</room>
   </rooms>
   <help>
