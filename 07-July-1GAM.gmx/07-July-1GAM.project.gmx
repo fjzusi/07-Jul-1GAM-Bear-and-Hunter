@@ -8,7 +8,16 @@
   <sprites name="sprites">
     <sprite>sprites\spr_Cabin</sprite>
     <sprite>sprites\spr_Wall</sprite>
-    <sprite>sprites\spr_Hunter</sprite>
+    <sprites name="Hunter">
+      <sprite>sprites\spr_Hunter_StandR</sprite>
+      <sprite>sprites\spr_Hunter_StandL</sprite>
+      <sprite>sprites\spr_Hunter_WalkR</sprite>
+      <sprite>sprites\spr_Hunter_WalkL</sprite>
+      <sprite>sprites\spr_Hunter_JumpR</sprite>
+      <sprite>sprites\spr_Hunter_JumpL</sprite>
+      <sprite>sprites\spr_Hunter_DieR</sprite>
+      <sprite>sprites\spr_Hunter_DieL</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_CaveTiles</background>
