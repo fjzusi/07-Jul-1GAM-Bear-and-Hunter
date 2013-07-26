@@ -9,6 +9,7 @@
     <sprite>sprites\spr_Cabin</sprite>
     <sprite>sprites\spr_Clothes_Pile</sprite>
     <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_Flag</sprite>
     <sprites name="Hunter">
       <sprite>sprites\spr_Hunter_StandR</sprite>
       <sprite>sprites\spr_Hunter_StandL</sprite>
@@ -35,6 +36,7 @@
     <object>objects\obj_Cabin</object>
     <object>objects\obj_Clothes_Pile</object>
     <object>objects\obj_Goal</object>
+    <object>objects\obj_VictoryFlag</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Game</room>
