@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_Cabin</sprite>
+    <sprite>sprites\spr_Clothes_Pile</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprites name="Hunter">
       <sprite>sprites\spr_Hunter_StandR</sprite>
@@ -15,14 +16,12 @@
       <sprite>sprites\spr_Hunter_WalkL</sprite>
       <sprite>sprites\spr_Hunter_JumpR</sprite>
       <sprite>sprites\spr_Hunter_JumpL</sprite>
-      <sprite>sprites\spr_Hunter_DieR</sprite>
-      <sprite>sprites\spr_Hunter_DieL</sprite>
+      <sprite>sprites\spr_Hunter_Die</sprite>
     </sprites>
     <sprites name="Bear">
       <sprite>sprites\spr_Bear</sprite>
       <sprite>sprites\spr_Bear_Sleeping</sprite>
     </sprites>
-    <sprite>sprites\spr_Clothes_Pile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_CaveTiles</background>

@@ -3,7 +3,7 @@
   <spriteName>spr_Hunter_StandR</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -356,9 +356,10 @@ if((sprite_index == spr_Hunter_JumpR || sprite_index == spr_Hunter_JumpL) &amp;&
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!chasing) {
+            <string>if(!awake) {
     alarm[0] = 20;
     sprite_index = spr_Bear;
+    awake = true;
 }
 </string>
           </argument>
@@ -421,6 +422,32 @@ if(!place_free(x, y + vspeed)) {
 if(!place_free(x, y + 1)) {
     vspeed = 0;
     inAir = false;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_Bear">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(sprite_index != spr_Hunter_Die) {
+    sprite_index = spr_Hunter_Die;
+    image_speed = 0.1;
 }
 </string>
           </argument>
@@ -527,6 +554,31 @@ if(!place_free(x, y + 1)) {
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="7" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(sprite_index == spr_Hunter_Die) {
+    room_goto(rm_Credits);
+}
+</string>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>
