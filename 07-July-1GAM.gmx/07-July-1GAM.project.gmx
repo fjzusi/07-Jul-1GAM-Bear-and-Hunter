@@ -18,6 +18,11 @@
       <sprite>sprites\spr_Hunter_DieR</sprite>
       <sprite>sprites\spr_Hunter_DieL</sprite>
     </sprites>
+    <sprites name="Bear">
+      <sprite>sprites\spr_Bear</sprite>
+      <sprite>sprites\spr_Bear_Sleeping</sprite>
+    </sprites>
+    <sprite>sprites\spr_Clothes_Pile</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bck_CaveTiles</background>
@@ -29,6 +34,8 @@
     <object>objects\obj_Bear</object>
     <object>objects\obj_Wall</object>
     <object>objects\obj_Cabin</object>
+    <object>objects\obj_Clothes_Pile</object>
+    <object>objects\obj_Goal</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Game</room>

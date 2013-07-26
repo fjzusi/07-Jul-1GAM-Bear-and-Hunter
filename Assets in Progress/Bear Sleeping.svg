@@ -15,8 +15,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Bear.svg"
-   inkscape:export-filename="C:\Users\JoeDono\Documents\Projects\1GAM Projects\07-Jul-1GAM\Assets in Progress\Bear.png"
+   sodipodi:docname="Bear Sleeping.svg"
+   inkscape:export-filename="C:\Users\JoeDono\Documents\Projects\1GAM Projects\07-Jul-1GAM\Assets in Progress\Bear Sleeping.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -310,9 +310,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="186.92626"
-     inkscape:cy="48.547647"
+     inkscape:zoom="3.959798"
+     inkscape:cx="92.752403"
+     inkscape:cy="52.743432"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -513,19 +513,9 @@
        y="-1080.8912"
        ry="10.478057" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.36539572;stroke-opacity:1"
-       d="m 197.63534,961.83205 c -0.007,-0.003 -0.0155,-0.008 -0.0236,-0.0111 -0.14885,-0.0585 -0.31378,-0.088 -0.48558,-0.088 -0.17178,0 -0.33672,0.0295 -0.48557,0.088 -0.14886,0.0585 -0.2901,0.14856 -0.40267,0.25321 -0.11259,0.10464 -0.1976,0.22492 -0.26056,0.36329 -0.063,0.13837 -0.0947,0.29169 -0.0947,0.45137 0,0.15969 0.0317,0.313 0.0947,0.45137 0.0629,0.13838 0.14797,0.25865 0.26056,0.3633 0.11257,0.10464 0.25381,0.19469 0.40267,0.25321 0.0762,0.0299 0.16567,0.0286 0.24871,0.0441 0.41427,-0.6504 0.71934,-1.36422 0.74613,-2.1688 z"
-       id="path3956"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.36539572;stroke-opacity:1"
-       d="m 192.67297,957.06512 c -2.74864,0 -4.97422,2.0688 -4.97422,4.62381 0,2.55502 2.22558,4.62382 4.97422,4.62382 1.82413,0 3.3497,-0.95144 4.21626,-2.31191 -0.083,-0.0155 -0.17254,-0.0141 -0.24873,-0.0441 -0.14885,-0.0585 -0.29009,-0.14855 -0.40266,-0.2532 -0.11258,-0.10464 -0.1976,-0.22493 -0.26057,-0.3633 -0.0629,-0.13837 -0.0947,-0.29168 -0.0947,-0.45137 0,-0.15969 0.0317,-0.31301 0.0947,-0.45137 0.063,-0.13838 0.14799,-0.25865 0.26057,-0.3633 0.11257,-0.10464 0.25381,-0.19469 0.40266,-0.25321 0.14886,-0.0585 0.3138,-0.088 0.48558,-0.088 0.1718,0 0.33672,0.0295 0.48558,0.088 0.009,0.003 0.0155,0.008 0.0236,0.0111 0.002,-0.0484 0.0119,-0.0943 0.0119,-0.14311 0,-2.55502 -2.22557,-4.62382 -4.97422,-4.62382 z"
-       id="path3949"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.36539572;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 192.57491,957.0635 c -1.84423,0 -3.43935,0.93754 -4.29914,2.32292 l 9.21415,2.97245 c 0.0344,-0.2195 0.0592,-0.4432 0.0592,-0.67156 0,-2.55501 -2.22556,-4.62381 -4.97421,-4.62381 z"
-       id="rect3947"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 188.21119,959.57116 c -0.26272,0.66088 -0.40378,1.37649 -0.35489,2.1341 0.17564,2.72144 2.51444,4.78583 5.22387,4.61097 2.21904,-0.14322 3.9751,-1.747 4.45004,-3.81686 l -9.31902,-2.92821 z"
+       id="path3052"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
