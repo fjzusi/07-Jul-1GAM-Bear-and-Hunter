@@ -27,6 +27,7 @@
   <backgrounds name="background">
     <background>background\bck_CaveTiles</background>
     <background>background\bck_ForestTiles</background>
+    <background>background\bck_Game</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
